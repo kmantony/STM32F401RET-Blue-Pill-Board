@@ -6883,12 +6883,6 @@
 		(uuid "8e93d7a2-e928-464c-b33a-4f0dc1bc7fdc")
 	)
 	(junction
-		(at 35.56 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94b4f563-c966-4260-8c28-aaffd91b23fb")
-	)
-	(junction
 		(at 187.96 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6923,6 +6917,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1a239fe-4350-4528-9765-b56473e1e26d")
+	)
+	(junction
+		(at 35.56 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef28719-3cb9-4085-a084-ded2164e8059")
 	)
 	(junction
 		(at 68.58 43.18)
@@ -7610,16 +7610,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 27.94) (xy 38.1 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4971c940-4941-481b-879a-9f85652ad6bd")
-	)
-	(wire
-		(pts
 			(xy 205.74 73.66) (xy 218.44 73.66)
 		)
 		(stroke
@@ -7930,6 +7920,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 22.86) (xy 35.56 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735a7a9e-0de7-470a-b43f-a32cd27ebf86")
+	)
+	(wire
+		(pts
 			(xy 170.18 43.18) (xy 165.1 43.18)
 		)
 		(stroke
@@ -8227,6 +8227,16 @@
 			(type default)
 		)
 		(uuid "8d6cfa79-739b-4e29-b458-c85f9f4b30cb")
+	)
+	(wire
+		(pts
+			(xy 35.56 27.94) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904efe7f-7e6b-4fba-91a0-717d5a922155")
 	)
 	(wire
 		(pts
@@ -10799,16 +10809,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 35.56 27.94 0)
+		(at 35.56 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fcebec3-1aeb-41ae-989b-acd5ec340dee")
 		(property "Reference" "#FLG02"
-			(at 35.56 26.035 0)
+			(at 35.56 20.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10817,7 +10826,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 35.56 23.622 0)
+			(at 35.56 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 27.94 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10834,7 +10843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 27.94 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +10852,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 27.94 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.5252 124.46 0)
 			(effects
 				(font
@@ -14437,7 +14446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 122.8852 35.56 0)
 			(effects
 				(font
@@ -15037,7 +15046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.6652 63.5 0)
 			(effects
 				(font
