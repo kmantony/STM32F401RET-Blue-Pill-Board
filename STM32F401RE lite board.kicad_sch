@@ -8857,16 +8857,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 63.5 109.22 270)
+		(at 30.48 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2eda6c01-faa3-48a8-8289-38292e9f0df0")
 		(property "Reference" "#PWR035"
-			(at 59.69 109.22 0)
+			(at 26.67 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +8874,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 68.834 109.2199 90)
+			(at 34.29 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 63.5 109.22 0)
+			(at 30.48 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,16 +11710,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 30.48 109.22 270)
+		(at 63.5 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b0f43406-e7ef-4b7c-a2bd-9614db1f9404")
 		(property "Reference" "#PWR09"
-			(at 26.67 109.22 0)
+			(at 59.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11727,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 35.306 109.2199 90)
+			(at 66.548 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11738,7 +11736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 109.22 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 109.22 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11754,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 30.48 109.22 0)
+			(at 63.5 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
